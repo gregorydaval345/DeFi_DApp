@@ -14,24 +14,11 @@ function App() {
   const[depositStatement, setDepositStatement] = useState("");
   const[viewStatement, setViewStatement]= useState("")
   const[withdrawStatement, setWithdrawStatement] = useState("");
-  const[ERC20Address, setERC20Address] = useState("");
-  const[ERC20DepositValue, setERC20DepositValue] = useState("");
-  const[ERC20DepositStatement, setERC20DepositStatement] = useState("");
-  const[ERC20ApproveStatement, setERC20ApproveStatement] = useState("");
-  const[ERC20WithdrawValue, setERC20WithdrawValue] = useState("");
-  const[ERC20WithdrawStatement, setERC20WithdrawStatement] = useState("");
   const[depositError, setDepositError] = useState("");
   const[withdrawError, setWithdrawError] = useState("");
-  const[erc20WithdrawError, setERC20WithdrawError] = useState("");
-  const[erc20DepositError, setERC20DepositError] = useState("");
-  const[erc20WithdrawAddressError, setERC20WithdrawAddressError] = useState("");
-  const[erc20DepositAddressError, setERC20DepositAddressError] = useState("");
   const handleError = useErrorHandler();
   const[loadingDeposit, setLoadingDeposit] = useState(false);
   const[loadingWithdraw, setLoadingWithdraw] = useState(false);
-  const[loadingERC20Deposit, setLoadingERC20Deposit] = useState(false);
-  const[loadingApprove, setLoadingApprove] = useState(false)
-  const[loadingERC20Withdraw, setLoadingERC20Withdraw] = useState(false);
 
   let provider;
   let accounts;
