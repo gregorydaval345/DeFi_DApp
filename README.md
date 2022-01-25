@@ -41,7 +41,7 @@ To run the DApp in a local environment, the following dependencies are required:
 
   
 #### Interact via Etherscan
-  * You may also choose to interact with the SmartBank contract via [Etherscan Rinkeby.](https://rinkeby.etherscan.io/address/0x0eaee27d1cdbaF249dAb7B1CcBdDeAFCB5Ae86eB)
+  * You may also choose to interact with the contract via [Etherscan Rinkeby.](https://rinkeby.etherscan.io/address/0x0eaee27d1cdbaF249dAb7B1CcBdDeAFCB5Ae86eB)
 
 ## Directory Structure
 Key files and folders structures are as below:
