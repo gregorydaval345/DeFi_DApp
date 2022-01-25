@@ -1,4 +1,4 @@
-# DeFi_DApp
+# DeFi Yield Farming
 DeFi yield farming DApp
 
 Building a Escrow smart contract with a few custom features:
